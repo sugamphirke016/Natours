@@ -30,7 +30,7 @@ The project's attention to detail, coupled with its advanced validation mechanis
 
 ## Demonstration
 
-![Desktop View](https://sugamphirke.com/Projects/natours/desktopView.gif)
+<!-- ![Desktop View](https://sugamphirke.com/Projects/natours/desktopView.gif) -->
 
 ![Mobile View](https://sugamphirke.com/Projects/natours/mobileView.gif)  
 
