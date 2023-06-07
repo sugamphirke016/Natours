@@ -30,9 +30,9 @@ The project's attention to detail, coupled with its advanced validation mechanis
 
 ## Demonstration
 
-![App Screenshot](https://sugamphirke.com/Projects/natours/mobileView.gif)  
+![Desktop View](https://sugamphirke.com/Projects/natours/desktopView.gif)
 
-![App Screenshot](https://sugamphirke.com/Projects/natours/desktopView.gif)
+![Mobile View](https://sugamphirke.com/Projects/natours/mobileView.gif)  
 
 
 ## Lessons Learned
