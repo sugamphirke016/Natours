@@ -111,6 +111,8 @@ Start the server
 [Sizzy](https://sizzy.co/)  
 [Firebase Docs](https://firebase.google.com/docs)  
 [PHPMailer](https://github.com/PHPMailer/PHPMailer)
+[Linea Icons](https://linea.io/)
+[Google fonts](https://fonts.google.com/)
 
 ## Author
 
