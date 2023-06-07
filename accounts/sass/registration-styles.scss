@@ -1,0 +1,488 @@
+@import "https://fonts.googleapis.com/css2?family=Antic&family=Bungee&display=swap";
+
+@keyframes bgChange {
+	0% {
+		background-image: url(../images/avenue.jpg);
+	}
+
+	10% {
+		background-image: url(../images/barley-field.jpg);
+	}
+
+	20% {
+		background-image: url(../images/forest.jpg);
+	}
+
+	30% {
+		background-image: url(../images/lake.jpg);
+	}
+
+	40% {
+		background-image: url(../images/mountains.jpg);
+	}
+
+	50% {
+		background-image: url(../images/river.jpg);
+	}
+
+	60% {
+		background-image: url(../images/road.jpg);
+	}
+
+	70% {
+		background-image: url(../images/sunset.jpg);
+	}
+
+	80% {
+		background-image: url(../images/trees.jpg);
+	}
+
+	90% {
+		background-image: url(../images/two-trees.jpg);
+	}
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 2rem;
+}
+
+* {
+	box-sizing: border-box;
+
+	&::after {
+		box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	&::before {
+		box-sizing: border-box;
+	}
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.grid-test {
+	margin: 12.5rem 0;
+}
+
+form {
+	width: 25rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.6rem;
+	box-sizing: border-box;
+
+	&::before {
+		box-sizing: border-box;
+	}
+}
+
+.form-group {
+	position: relative;
+	font-size: 1.4rem;
+	padding-top: 2rem;
+	margin-bottom: 5px;
+	margin-top: -1rem;
+
+	input {
+		outline: none;
+		appearance: none;
+		border: none;
+		background: rgba(40, 180, 133, 0.7);
+		padding: 1.2rem;
+		border-radius: .3rem;
+		max-width: 25rem;
+		font-size: 1.4rem;
+		width: 100%;
+
+		&:valid+.placeholder {
+			top: 2rem;
+			font-size: 1rem;
+			color: #000;
+			background: #fff;
+			z-index: 100;
+			padding: 0 5px;
+			border-radius: 3px;
+		}
+
+		&:focus+.placeholder {
+			top: 2rem;
+			font-size: 1rem;
+			color: #000;
+			background: #fff;
+			z-index: 100;
+			padding: 0 5px;
+			border-radius: 3px;
+		}
+	}
+
+	.placeholder {
+		position: absolute;
+		left: 1.2rem;
+		top: calc(50% + 1rem);
+		transform: translateY(-50%);
+		color: #fff;
+		transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+		position: absolute;
+		left: 1.2rem;
+		top: calc(50% + 1rem);
+		transform: translateY(-50%);
+		color: #fff;
+	}
+}
+
+.form-group.three {
+	.border {
+		width: 100%;
+		height: calc(100% - 2rem);
+		position: absolute;
+		left: 0;
+		top: 2rem;
+		border-radius: .3rem;
+		transform: none;
+		display: flex;
+		align-items: center;
+		padding: 1.2rem;
+
+		&::after {
+			content: "";
+			display: inline-block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			border-radius: 3px;
+			right: 0;
+			top: 0;
+			border-left: 0px solid #000;
+			border-top: 0px solid #000;
+			transition: width 0.3s ease, height 0.3s ease;
+		}
+
+		&::before {
+			content: "";
+			display: inline-block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			border-radius: 3px;
+			left: 0;
+			bottom: 0;
+			border-bottom: 0px solid #000;
+			border-right: 0px solid #000;
+			transition: width 0.3s ease, height 0.3s ease;
+		}
+	}
+
+	input {
+		&:valid~.border {
+			&:before {
+				width: 100%;
+				height: 100%;
+				border-width: 2px;
+				transition: width 0.3s ease, height 0.3s ease 0.3s;
+			}
+
+			&:after {
+				width: 100%;
+				height: 100%;
+				border-width: 2px;
+				transition: width 0.3s ease 0.6s, height 0.3s ease 0.9s;
+			}
+		}
+
+		&:focus~.border {
+			&:before {
+				width: 100%;
+				height: 100%;
+				border-width: 2px;
+				transition: width 0.3s ease, height 0.3s ease 0.3s;
+			}
+
+			&:after {
+				width: 100%;
+				height: 100%;
+				border-width: 2px;
+				transition: width 0.3s ease 0.6s, height 0.3s ease 0.9s;
+			}
+		}
+	}
+}
+
+.registration-page {
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 4rem);
+	background-image: url(../images/avenue.jpg);
+	background-image: url(../images/barley-field.jpg);
+	background-image: url(../images/forest.jpg);
+	background-image: url(../images/lake.jpg);
+	background-image: url(../images/mountains.jpg);
+	background-image: url(../images/river.jpg);
+	background-image: url(../images/road.jpg);
+	background-image: url(../images/sunset.jpg);
+	background-image: url(../images/trees.jpg);
+	background-image: url(../images/two-trees.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: bgChange 140s linear infinite;
+	transition: background-image 0.5s ease-in-out;
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-family: sans-serif;
+		font-size: 1.6rem;
+		background-color: rgba(40, 180, 133, 0.6);
+		height: 70vh;
+	}
+
+	&__heading {
+		text-transform: uppercase;
+		font-size: 3.5rem;
+		color: #7ed56f;
+		font-family: 'Bungee', cursive;
+		margin-top: 1rem;
+		margin-left: -17rem;
+	}
+
+	&__tagline {
+		margin-top: -6rem;
+		font-family: 'lato', cursive;
+		font-family: 700;
+		font-size: 2rem;
+		color: #7ed56f;
+		margin-left: -17rem;
+	}
+
+	&__logo-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-family: sans-serif;
+		font-size: 1.6rem;
+		background-color: rgba(0, 0, 0, 0.6);
+		height: 70vh;
+	}
+
+	&__prompt {
+		font-family: 'Antic', sans-serif;
+		margin-left: 1.2rem;
+		display: inline-block;
+		font-size: 1.2rem;
+		margin-bottom: 2rem;
+		display: inline;
+	}
+
+	&__promptAsk {
+		font-family: 'Antic', sans-serif;
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 1.7rem;
+		color: #00bf13;
+		font-size: 1.5rem;
+		font-weight: 700;
+		display: inline;
+
+		&:hover {
+			color: #00008B;
+			text-decoration: underline;
+		}
+	}
+
+	&__btn-text {
+		&:link {
+			font-size: 1.6rem;
+			color: #55c57a;
+			display: inline-block;
+			text-decoration: none;
+			border-bottom: 1px solid #55c57a;
+			padding: 3px;
+			transition: all .2s;
+			top: 1rem;
+			left: 1rem;
+			position: relative;
+			z-index: 10000;
+		}
+
+		&:visited {
+			font-size: 1.6rem;
+			color: #55c57a;
+			display: inline-block;
+			text-decoration: none;
+			border-bottom: 1px solid #55c57a;
+			padding: 3px;
+			transition: all .2s;
+			top: 1rem;
+			left: 1rem;
+		}
+
+		&:hover {
+			background-color: #55c57a;
+			color: #fff;
+			box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+			transform: translateY(0);
+		}
+	}
+
+	&__block {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 114rem;
+		background-color: transparent;
+		color: #fff;
+		margin: 0 auto;
+
+		&:not(:last-child) {
+			margin-bottom: 8rem;
+		}
+
+		&::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		[class^="col-"] {
+			float: left;
+
+			&:not(:last-child) {
+				margin-right: 5px;
+			}
+		}
+
+		.col-1-of-2 {
+			width: calc((100% - 5px)/2);
+		}
+	}
+
+	&__logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	display: inline-block;
+	border-radius: 10rem;
+	transition: all 0.2s;
+	position: relative;
+	font-size: 1.6rem;
+	margin: 0 auto;
+	border: none;
+	cursor: pointer;
+	margin-top: 1rem;
+
+	&:link {
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1rem 2rem;
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all 0.2s;
+		position: relative;
+		font-size: 1.6rem;
+		margin: 0 auto;
+		border: none;
+		cursor: pointer;
+		margin-top: 1rem;
+	}
+
+	&:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1rem 2rem;
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all 0.2s;
+		position: relative;
+		font-size: 1.6rem;
+		margin: 0 auto;
+		border: none;
+		cursor: pointer;
+		margin-top: 1rem;
+	}
+
+	&:hover {
+		transform: translateY(-0.3rem);
+		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+		&::after {
+			transform: scaleX(1.4) scaleY(1.6);
+			opacity: 0;
+		}
+	}
+
+	&:active {
+		transform: translateY(-0.1rem);
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	}
+
+	&::after {
+		content: "";
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transition: all .4s;
+	}
+
+	&--green {
+		background-color: rgba(0, 191, 19, 0.5);
+		color: #fff;
+
+		&::after {
+			background-color: rgba(0, 191, 19, 0.5);
+		}
+	}
+}
+
+#toggle {
+	position: absolute;
+	top: calc(50% + .8rem);
+	transform: translateY(-50%);
+	right: 1rem;
+	background: url(../images/icons8-invisible-48.png);
+	background-size: cover;
+	width: 2.5rem;
+	height: 2rem;
+	cursor: pointer;
+}
+
+#toggle.hide {
+	background: url(../images/icons8-eye-48.png);
+	background-size: cover;
+}
