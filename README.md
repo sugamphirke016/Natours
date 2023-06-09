@@ -57,6 +57,7 @@ The project's attention to detail, coupled with its advanced validation mechanis
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [MySQL](https://www.mysql.com/)
 - [Firebase Authentication](https://firebase.google.com/products/auth/)
+- [Hostinger(SMTP and Hosting)](https://www.hostinger.in/)
 
 ## Color Reference
 
@@ -113,6 +114,9 @@ Start the server
 [PHPMailer](https://github.com/PHPMailer/PHPMailer)  
 [Linea Icons](https://linea.io/)  
 [Google fonts](https://fonts.google.com/)  
+[Font Awesome](https://fontawesome.com/)  
+[Coverr](https://coverr.co/)  
+[Unsplash](https://unsplash.com/)  
 
 ## Author
 
