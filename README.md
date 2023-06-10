@@ -121,7 +121,7 @@ Start the server
 
 If you have any feedback, queries or suggestions, please reach out to me at projects@sugamphirke.com
 
-<span style="font-size: 1.55em;">Future Work</span> <span style="font-size: .9em;"> (as of 10-06-23)</span>
+## Future Work <span style="font-size: .9em;"> (as of 10-06-23)</span>
 
 - User profile page
 - User should be able to search or filter out the tours
