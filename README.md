@@ -97,6 +97,16 @@ Start the server
   npm run devserver
 ```
 
+## Future Work <span style="font-size: .9em;"> (as of 10-06-23)</span>
+
+- User profile page
+- User should be able to search or filter out the tours
+- User should be able to book a tour  
+- Payment checkout with real-time payment system
+- Admin portal
+- Improve overall UX/UI and fix bugs
+- And more!
+
 ## References
 
 [Sass Guidelines](https://sass-guidelin.es/)  
@@ -120,16 +130,6 @@ Start the server
 ## Feedback
 
 If you have any feedback, queries or suggestions, please reach out to me at projects@sugamphirke.com
-
-## Future Work <span style="font-size: .9em;"> (as of 10-06-23)</span>
-
-- User profile page
-- User should be able to search or filter out the tours
-- User should be able to book a tour  
-- Payment checkout with real-time payment system
-- Admin portal
-- Improve overall UX/UI and fix bugs
-- And more!
 
 ## Contact Me
 
