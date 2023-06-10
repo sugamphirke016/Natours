@@ -1,15 +1,14 @@
-
-![Logo](https://sugamphirke.com/Projects/natours/img/logo-green-1x.png)
-
-
-
+<h1 align="center">
+  <br>
+  <a href="https://sugamphirke.com/Projects/natours/"><img src="https://sugamphirke.com/Projects/natours/img/logo-green-1x.png" alt="Natours" width="200"></a>
+  <br>
+</h1>
 
 **N**atours is an exemplary web project that seamlessly combines advanced technologies, superior coding practices, and captivating design aesthetics to deliver an outstanding user experience. It represents a fictional company specializing in nature tours, hence the name, NaTours.
 
 The project's attention to detail, coupled with its advanced validation mechanisms and seamless responsiveness, ensures a secure and visually stunning journey for every user.
 
 [Visit website](https://sugamphirke.com/Projects/natours/  "Checkout the hosted website")
-
 
 ## Features
 
@@ -26,7 +25,6 @@ The project's attention to detail, coupled with its advanced validation mechanis
 - Built on the NPM ecosystem, leveraging the power of a vast collection of open-source packages and libraries.
 - Codebase designed to be reusable, maintainable, and scalable, allowing for easy expansion and updates.
 - Meticulously crafted using a Desktop-first approach, ensuring full responsiveness across various devices such as mobile phones, tablets (both in portrait and landscape orientations), and larger screens.
-
 
 ## Demonstration
 
@@ -46,9 +44,6 @@ The project's attention to detail, coupled with its advanced validation mechanis
 4. Responsive images in HTML and CSS for faster pageloads: resolution switching, density switching & art direction.
 
 5. 7-1 Sass Architecture, component-based design and BEM model.
-
-
-
 
 ## Tech Stack
 
@@ -71,11 +66,11 @@ The project's attention to detail, coupled with its advanced validation mechanis
 | Tertiary Color Light | ![#2998ff](https://via.placeholder.com/10/2998ff?text=+) #2998ff |
 | Tertiary Color Dark | ![#5643fa](https://via.placeholder.com/10/5643fa?text=+) #5643fa |
 
-
 ## Environment Setup
 
 - Download and install [Git](https://git-scm.com/downloads)
 - Download and install [Node.js](https://nodejs.org/en/download)
+
 ## Run Locally
 
 Clone the project
@@ -124,8 +119,17 @@ Start the server
 
 ## Feedback
 
-If you have any feedback, please reach out to me at projects@sugamphirke.com
+If you have any feedback, queries or suggestions, please reach out to me at projects@sugamphirke.com
 
+<span style="font-size: 1.55em;">Future Work</span> <span style="font-size: .9em;"> (as of 10-06-23)</span>
+
+- User profile page
+- User should be able to search or filter out the tours
+- User should be able to book a tour  
+- Payment checkout with real-time payment system
+- Admin portal
+- Improve overall UX/UI and fix bugs
+- And more!
 
 ## Contact Me
 
