@@ -122,10 +122,16 @@ Start the server
 [Font Awesome](https://fontawesome.com/)  
 [Coverr](https://coverr.co/)  
 [Unsplash](https://unsplash.com/)  
+[MDN Docs](https://developer.mozilla.org/en-US/)  
+[Polypane](https://polypane.app/)
 
 ## Author
 
 [@sugamphirke016](https://www.github.com/sugamphirke016)
+
+## Acknowledgement
+
+This Home page design of this project is a course-work for the course [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) by [Jonas Schmedtmann](https://codingheroes.io/) on udemy.
 
 ## Feedback
 
@@ -135,5 +141,7 @@ If you have any feedback, queries or suggestions, please reach out to me at proj
 
 [![LinkedIn](https://sugamphirke.com/Projects/natours/accounts/images/linkedin-small.png)](http://www.linkedin.com/in/sugam-phirke)
 [![LinkedIn](https://sugamphirke.com/Projects/natours/accounts/images/gmail-small.png)](https://mail.google.com/mail/?view=cm&to=reachout%40sugamphirke.com)
+
+
 
 
