@@ -7,11 +7,11 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#demonstration">Demonstration</a> •
-  <a href="#lessons-learned">Lessons Learned</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#color-reference">Color Reference</a> •
   <a href="#environment-setup">Environment Setup</a> •
   <a href="#run-locally">Run Locally</a> •
+  <a href="#lessons-learned">Lessons Learned</a> •
   <a href="#future-work">Future Work</a> •
   <a href="#references">References</a> •
   <a href="#author">Author</a> •
@@ -68,18 +68,6 @@ The project's attention to detail, coupled with its advanced validation mechanis
 | Tertiary Color Light | ![#2998ff](https://via.placeholder.com/10/2998ff?text=+) #2998ff |
 | Tertiary Color Dark | ![#5643fa](https://via.placeholder.com/10/5643fa?text=+) #5643fa |
 
-## Lessons Learned
-
-1. How CSS works behind the scenes: the cascade, render tree, specificity, inheritance, value processing, the visual formatting model, the box model, box types, positioning schemes, stacking contexts, and CSSOM.
-
-2. Advanced responsive design workflows: mobile-first vs desktop-first strategies, selecting breakpoints, em vs rem units and feature queries to test for browser support.
-
-3. Videos in HTML and CSS: building a background video effect.
-
-4. Responsive images in HTML and CSS for faster pageloads: resolution switching, density switching & art direction.
-
-5. 7-1 Sass Architecture, component-based design and BEM model.
-
 ## Environment Setup
 
 - Download and install [Git](https://git-scm.com/downloads)
@@ -110,6 +98,18 @@ Start the server
 ```bash
   npm run devserver
 ```
+
+## Lessons Learned
+
+1. How CSS works behind the scenes: the cascade, render tree, specificity, inheritance, value processing, the visual formatting model, the box model, box types, positioning schemes, stacking contexts, and CSSOM.
+
+2. Advanced responsive design workflows: mobile-first vs desktop-first strategies, selecting breakpoints, em vs rem units and feature queries to test for browser support.
+
+3. Videos in HTML and CSS: building a background video effect.
+
+4. Responsive images in HTML and CSS for faster pageloads: resolution switching, density switching & art direction.
+
+5. 7-1 Sass Architecture, component-based design and BEM model.
 
 ## Future Work <span style="font-size: .9em;"> (as of 10-06-23)</span>
 
@@ -145,7 +145,7 @@ Start the server
 
 ## Acknowledgement
 
-This Home page design of this project is a course-work for the course [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) by [Jonas Schmedtmann](https://codingheroes.io/) on udemy.
+The Home page design of this project is a course-work for the course [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) by [Jonas Schmedtmann](https://codingheroes.io/) on udemy.
 
 ## Feedback
 
