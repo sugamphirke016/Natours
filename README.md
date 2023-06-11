@@ -47,18 +47,6 @@ The project's attention to detail, coupled with its advanced validation mechanis
 
 ![Mobile View](./mobileView.gif)  
 
-## Lessons Learned
-
-1. How CSS works behind the scenes: the cascade, render tree, specificity, inheritance, value processing, the visual formatting model, the box model, box types, positioning schemes, stacking contexts, and CSSOM.
-
-2. Advanced responsive design workflows: mobile-first vs desktop-first strategies, selecting breakpoints, em vs rem units and feature queries to test for browser support.
-
-3. Videos in HTML and CSS: building a background video effect.
-
-4. Responsive images in HTML and CSS for faster pageloads: resolution switching, density switching & art direction.
-
-5. 7-1 Sass Architecture, component-based design and BEM model.
-
 ## Tech Stack
 
 - [PHP](http://www.php.net/)
@@ -79,6 +67,18 @@ The project's attention to detail, coupled with its advanced validation mechanis
 | Secondary Color Dark | ![#ff7738](https://via.placeholder.com/10/ff7738?text=+) #ff7738 |
 | Tertiary Color Light | ![#2998ff](https://via.placeholder.com/10/2998ff?text=+) #2998ff |
 | Tertiary Color Dark | ![#5643fa](https://via.placeholder.com/10/5643fa?text=+) #5643fa |
+
+## Lessons Learned
+
+1. How CSS works behind the scenes: the cascade, render tree, specificity, inheritance, value processing, the visual formatting model, the box model, box types, positioning schemes, stacking contexts, and CSSOM.
+
+2. Advanced responsive design workflows: mobile-first vs desktop-first strategies, selecting breakpoints, em vs rem units and feature queries to test for browser support.
+
+3. Videos in HTML and CSS: building a background video effect.
+
+4. Responsive images in HTML and CSS for faster pageloads: resolution switching, density switching & art direction.
+
+5. 7-1 Sass Architecture, component-based design and BEM model.
 
 ## Environment Setup
 
