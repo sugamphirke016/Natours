@@ -4,6 +4,21 @@
   <br>
 </h1>
 
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#demonstration">Demonstration</a> •
+  <a href="#lessons-learned">Lessons Learned</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#color-reference">Color Reference</a> •
+  <a href="#environment-setup">Environment Setup</a> •
+  <a href="#run-locally">Run Locally</a> •
+  <a href="#future-work">Future Work</a> •
+  <a href="#references">References</a> •
+  <a href="#author">Author</a> •
+  <a href="#acknowledgement">Acknowledgement</a> •
+  <a href="#feedback">Feedback</a>
+</p>
+
 **N**atours is an exemplary web project that seamlessly combines advanced technologies, superior coding practices, and captivating design aesthetics to deliver an outstanding user experience. It represents a fictional company specializing in nature tours, hence the name, NaTours.
 
 The project's attention to detail, coupled with its advanced validation mechanisms and seamless responsiveness, ensures a secure and visually stunning journey for every user.
@@ -31,7 +46,6 @@ The project's attention to detail, coupled with its advanced validation mechanis
 ![Desktop View](https://sugamphirke.com/Projects/natours/desktopView.gif)
 
 ![Mobile View](./mobileView.gif)  
-
 
 ## Lessons Learned
 
@@ -141,7 +155,3 @@ If you have any feedback, queries or suggestions, please reach out to me at proj
 
 [![LinkedIn](https://sugamphirke.com/Projects/natours/accounts/images/linkedin-small.png)](http://www.linkedin.com/in/sugam-phirke)
 [![LinkedIn](https://sugamphirke.com/Projects/natours/accounts/images/gmail-small.png)](https://mail.google.com/mail/?view=cm&to=reachout%40sugamphirke.com)
-
-
-
-
